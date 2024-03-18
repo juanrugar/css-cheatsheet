@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS Cheatseet</title>
+    <meta charset="utf-8" />
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <h1>CSS Cheatseet</h1>
+    </main>
+    <!-- DISPLAY AND POSITION TABLE -->
+    <div class="table_1">
+        <header>
+        <h2>Display and Positioning</h2>
+        <p>Properties regarding the HTML elements' position in the browser</p>
+        </header>
+        <table>
+            <thead>
+                <tr>
+                    <th>Property</th>
+                    <th>Description</th>
+                    <th>Values</th>
+                    <th>Effect</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="5"><span class="value">position</span></td>
+                    <td rowspan="5">Specifies the type of positioning method used for an element. Top, bottom, left and
+                        right can be specified.
+                        Admits px, em and rem values.</td>
+                    <td class="value">static</td>
+                    <td>Default element positioning</td>
+                </tr>
+                <tr>
+                    <td class="value">relative</td>
+                    <td>Position to its default static position</td>
+                </tr>
+                <tr>
+                    <td class="value">absolute</td>
+                    <td>Position to its closest positioned parent element. Removes the element from the html flow.</td>
+                </tr>
+                <tr>
+                    <td class="value">fixed</td>
+                    <td>Position fixed to a specific position anywhere in the webpage. Removes the element from the html
+                        flow.</td>
+                </tr>
+                <tr>
+                    <td class="value">sticky</td>
+                    <td>Sticks to a specific position as the page is scrolled.</td>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td rowspan="3"><span class="value">display</span></td>
+                    <td rowspan="3">Specifies how an element is shown on a web page. Width and height properties can be
+                        specified.</td>
+                    <td class="value">inline</td>
+                    <td>Default element positioning. Makes any element an inline html.</td>
+                </tr>
+                <tr>
+                    <td class="value">block</td>
+                    <td>Displays the element alone, taking all horizontal space.</td>
+                </tr>
+                <tr>
+                    <td class="value">inline-block</td>
+                    <td>Position elements inline next to other.</td>
+                </tr>
+                <tr>
+                    <td><span class="value">z-index</span></td>
+                    <td>Specifies the stack order of an element</td>
+                    <td>An integer</td>
+                    <td>An element can have a positive or negative stack order (1, -3, etc.)</td>
+                </tr>
+                <tr>
+                    <td rowspan="4"><span class="value">float</span></td>
+                    <td rowspan="4">Specifies how an element should float.</td>
+                    <td class="value">left</td>
+                    <td>The element floats to the left of its container.</td>
+                </tr>
+                <tr>
+                    <td class="value">right</td>
+                    <td>The element floats to the right of its container.</td>
+                </tr>
+                <tr>
+                    <td class="value">none</td>
+                    <td>The element does not float (will be displayed just where it occurs in the text). This is
+                        default.</td>
+                </tr>
+                <tr>
+                    <td class="value">inherit</td>
+                    <td>The element inherits the float value of its parent.</td>
+                </tr>
+                <tr>
+                    <td rowspan="5"><span class="value">clear</span></td>
+                    <td rowspan="5">Specifies what should happen with the element that is next to a floating element.
+                    </td>
+                    <td class="value">left</td>
+                    <td>The element is pushed below left floated elements.</td>
+                </tr>
+                <tr>
+                    <td class="value">right</td>
+                    <td>The element is pushed below right floated elements.</td>
+                </tr>
+                <tr>
+                    <td class="value">both</td>
+                    <td>The element is pushed below both left and right floated elements.</td>
+                </tr>
+                <tr>
+                    <td class="value">none</td>
+                    <td>The element is not pushed below left or right floated elements. This is default.</td>
+                </tr>
+                <tr>
+                    <td class="value">inherit</td>
+                    <td>The element inherits the clear value from its parent.</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+    <!-- TYPOGRAPHY TABLE -->
+<div class="table">
+        <header>
+        <h2>Typography</h2>
+        <p>The art of arranging text on a page</p>
+        </header>
+        <table>
+            <thead>
+                <tr>
+                    <th>Property</th>
+                    <th>Description</th>
+                    <th>Values</th>
+                    <th>Effect</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="value">font-family</span></td>
+                    <td>Specifies the type of positioning method used for an element. Top, bottom, left and
+                        right can be specified.
+                        Admits px, em and rem values.</td>
+                    <td>Multiple values. Use of <span class="font">websafe fonts</span>, <span class="font">fallback fonts</span> and <span class="font">font stacks</span>.</td>
+                </tr>
+                <tr>
+                    <td rowspan="3"><span class="value">display</span></td>
+                    <td rowspan="3">Specifies how an element is shown on a web page. Width and height properties can be
+                        specified.</td>
+                    <td class="value">inline</td>
+                    <td>Default element positioning. Makes any element an inline html.</td>
+                </tr>
+                <tr>
+                    <td class="value">block</td>
+                    <td>Displays the element alone, taking all horizontal space.</td>
+                </tr>
+                <tr>
+                    <td class="value">inline-block</td>
+                    <td>Position elements inline next to other.</td>
+                </tr>
+                <tr>
+                    <td><span class="value">z-index</span></td>
+                    <td>Specifies the stack order of an element</td>
+                    <td>An integer</td>
+                    <td>An element can have a positive or negative stack order (1, -3, etc.)</td>
+                </tr>
+                <tr>
+                    <td rowspan="4"><span class="value">float</span></td>
+                    <td rowspan="4">Specifies how an element should float.</td>
+                    <td class="value">left</td>
+                    <td>The element floats to the left of its container.</td>
+                </tr>
+                <tr>
+                    <td class="value">right</td>
+                    <td>The element floats to the right of its container.</td>
+                </tr>
+                <tr>
+                    <td class="value">none</td>
+                    <td>The element does not float (will be displayed just where it occurs in the text). This is
+                        default.</td>
+                </tr>
+                <tr>
+                    <td class="value">inherit</td>
+                    <td>The element inherits the float value of its parent.</td>
+                </tr>
+                <tr>
+                    <td rowspan="5"><span class="value">clear</span></td>
+                    <td rowspan="5">Specifies what should happen with the element that is next to a floating element.
+                    </td>
+                    <td class="value">left</td>
+                    <td>The element is pushed below left floated elements.</td>
+                </tr>
+                <tr>
+                    <td class="value">right</td>
+                    <td>The element is pushed below right floated elements.</td>
+                </tr>
+                <tr>
+                    <td class="value">both</td>
+                    <td>The element is pushed below both left and right floated elements.</td>
+                </tr>
+                <tr>
+                    <td class="value">none</td>
+                    <td>The element is not pushed below left or right floated elements. This is default.</td>
+                </tr>
+                <tr>
+                    <td class="value">inherit</td>
+                    <td>The element inherits the clear value from its parent.</td>
+                </tr>
+            </tbody>
+        </table>
+        
+    </div>
+   
+
+    <footer>
+        <p>© 2024 Juan Ruiz</p>
+    </footer>
+</body>
+
+</html>
